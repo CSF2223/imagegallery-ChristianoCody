@@ -78,4 +78,15 @@ p {
     header {
         font-size: 1.6rem;
     }
-}
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .imageCard {
+        max-width: 28%;
+    }
+}    
